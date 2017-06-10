@@ -1,11 +1,13 @@
 package edu.stevens.mattmccreesh.heatrescue;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private GoogleApiClient mGoogleApiClient;
     private FusedLocationProviderClient mFusedLocationClient;
+    private final int MY_PERMISSION_ACCESS_FINE_LOCATION = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,21 +62,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void onClick(View v) {
         //Toast.makeText(this, "Test",Toast.LENGTH_LONG).show();
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)== PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(this, "Success", Toast.LENGTH_LONG).show();
-            System.out.println("test");
-            mFusedLocationClient.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
-                public void onSuccess(Location location) {
-                    if (location != null) {
-                        //Toast.makeText(this, location.toString(), Toast.LENGTH_LONG);
-                        System.out.println(location.toString());
-                        System.out.println("test");
-                    }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, MY_PERMISSION_ACCESS_FINE_LOCATION);
+        }
+
+//        Toast.makeText(this, "Success", Toast.LENGTH_LONG).show();
+        final Context c = this;
+//        System.out.println("test");
+        mFusedLocationClient.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
+            public void onSuccess(Location location) {
+                if (location != null) {
+                    Toast.makeText(c, location.toString(), Toast.LENGTH_LONG);
+//                    System.out.println(location.toString());
+//                    System.out.println("test");
+
                 }
-            });
-        }
-        else{
-            Toast.makeText(this, "failure", Toast.LENGTH_LONG).show();
-        }
+            }
+        });
     }
 }
