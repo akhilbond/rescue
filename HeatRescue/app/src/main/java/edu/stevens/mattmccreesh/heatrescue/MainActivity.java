@@ -11,6 +11,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.v("tag", "inonCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button b = (Button) findViewById(R.id.send_button);
@@ -68,14 +70,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 //        Toast.makeText(this, "Success", Toast.LENGTH_LONG).show();
-        final Context c = this;
-//        System.out.println("test");
         mFusedLocationClient.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
             public void onSuccess(Location location) {
+                System.out.println("success");
                 if (location != null) {
                     Toast.makeText(c, location.toString(), Toast.LENGTH_LONG);
-//                    System.out.println(location.toString());
-//                    System.out.println("test");
+                    System.out.println(location.toString());
+                    System.out.println("test");
 
                 }
             }
