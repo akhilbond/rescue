@@ -1,0 +1,27 @@
+{
+  "name": "Rescuee",
+  "plural": "Rescuees",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userid": {
+      "type": "number",
+      "required": true
+    },
+    "location": {
+      "type": "geopoint",
+      "required": true
+    },
+    "datetime": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pgIDs": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://rescueadmin:rescueadmin@localhost/rescuee_data",
+    "database": "rescuee_data",
+    "password": "rescueadmin",
+    "name": "pgIDs",
+    "user": "rescueadmin",
+    "connector": "postgresql"
+  }
+}
