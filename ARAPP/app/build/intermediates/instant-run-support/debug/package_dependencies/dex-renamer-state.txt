@@ -1,0 +1,7 @@
+#Sun Jun 11 10:50:02 EDT 2017
+base.0=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a1522c8cb4d7537630c65fa5332f235c839d030d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_d3ae105d59b843ec8c2915e7f2f453b1183312fb\\classes.dex
+base.1=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_d3ae105d59b843ec8c2915e7f2f453b1183312fb
+file.0=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a1522c8cb4d7537630c65fa5332f235c839d030d\\classes.dex

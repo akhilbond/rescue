@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\akhil\.android\build-cache\d04662d59b7c6e62f5e65aff98e229bdbdbad262\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2ec4de00a6919aa349e2a0074bd64b6317147b27">
+        <dex dex="C:\Users\akhil\Desktop\ARAPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1522c8cb4d7537630c65fa5332f235c839d030d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\akhil\Desktop\ARAPP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b05a570aa70fa481e4f06b04cf30c31456a2f987">
+        <dex dex="C:\Users\akhil\Desktop\ARAPP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_54156abd0e7876ccde9204749c55d3ddf234490d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\akhil\Desktop\ARAPP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\akhil\Desktop\ARAPP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6cc91d2c0673b89308a86c8b7e7bcce3f3b02747\classes.dex" />
+    </item>
+
+</items>

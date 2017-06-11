@@ -1,0 +1,7 @@
+#Sun Jun 11 12:49:38 EDT 2017
+base.0=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6cc91d2c0673b89308a86c8b7e7bcce3f3b02747
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_54156abd0e7876ccde9204749c55d3ddf234490d\\classes.dex
+base.1=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_54156abd0e7876ccde9204749c55d3ddf234490d
+file.0=C\:\\Users\\akhil\\Desktop\\ARAPP\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6cc91d2c0673b89308a86c8b7e7bcce3f3b02747\\classes.dex
