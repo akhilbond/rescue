@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,10 +9,10 @@ import android.widget.Toast;
 
 import java.util.Date;
 import java.util.UUID;
-
+/*
 import edu.stevens.cs522.chat.entities.ChatMessage;
 import edu.stevens.cs522.chat.settings.Settings;
-import edu.stevens.cs522.chat.util.ResultReceiverWrapper;
+import edu.stevens.cs522.chat.util.ResultReceiverWrapper;*/
 
 
 /**
@@ -31,7 +31,7 @@ public class ChatHelper {
     public ChatHelper(Context context) {
         this.context = context;
         //added this to match last assignment
-        this.chatName = Settings.getChatName(context);
+        //this.chatName = Settings.getChatName(context);
         //this.clientID = Settings.getClientId(context); We don't seem to be using this
     }
 
@@ -40,7 +40,7 @@ public class ChatHelper {
         if (chatName != null && !chatName.isEmpty()) {
             RegisterRequest request = new RegisterRequest(chatName);//, clientID);we don't seem to use a uuid anymore for this
             this.chatName = chatName;
-            Settings.saveChatName(context, chatName);
+            //Settings.saveChatName(context, chatName);
             ResultReceiverWrapper receiver = new ResultReceiverWrapper(new Handler());//not sure about this
             receiver.setReceiver(new ResultReceiverWrapper.IReceive() {
                 @Override
@@ -48,7 +48,7 @@ public class ChatHelper {
                     switch (resultCode) {
                         case 0://not sure about this
                             Toast.makeText(context, "Registration done", Toast.LENGTH_LONG).show();
-                            Settings.setRegistered(context, true);//adding this
+                            //Settings.setRegistered(context, true);//adding this
                             break;
                         default:
                             Toast.makeText(context, "Registration failed, try again", Toast.LENGTH_LONG).show();
@@ -66,7 +66,7 @@ public class ChatHelper {
             if (chatRoom == null || chatRoom.isEmpty()) {
                 chatRoom = DEFAULT_CHAT_ROOM;
             }
-            ChatMessage message = new ChatMessage();
+            /*ChatMessage message = new ChatMessage();
             message.chatRoom = chatRoom;
             message.messageText = text;
             message.sender = Settings.getChatName(context);

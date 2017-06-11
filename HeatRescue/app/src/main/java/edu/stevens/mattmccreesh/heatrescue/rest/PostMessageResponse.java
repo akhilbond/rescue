@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.os.Parcel;
 import android.util.JsonReader;

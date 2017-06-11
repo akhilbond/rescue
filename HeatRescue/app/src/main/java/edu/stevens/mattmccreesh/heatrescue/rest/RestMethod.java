@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.content.Context;
 import android.content.SyncRequest;
@@ -27,11 +27,11 @@ import java.util.UUID;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
-
+/*
 import edu.stevens.cs522.chat.R;
 import edu.stevens.cs522.chat.settings.Settings;
 import edu.stevens.cs522.chat.util.StringUtils;
-
+*/
 /**
  * Created by dduggan.
  */

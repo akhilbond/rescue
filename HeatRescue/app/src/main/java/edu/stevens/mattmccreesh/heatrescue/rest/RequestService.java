@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.app.IntentService;
 import android.content.Intent;

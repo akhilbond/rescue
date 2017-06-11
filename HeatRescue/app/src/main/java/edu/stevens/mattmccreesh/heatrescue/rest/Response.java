@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,7 +8,7 @@ import android.util.Log;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 
-import edu.stevens.cs522.chat.util.EnumUtils;
+//import edu.stevens.cs522.chat.util.EnumUtils;
 
 import static android.view.View.X;
 

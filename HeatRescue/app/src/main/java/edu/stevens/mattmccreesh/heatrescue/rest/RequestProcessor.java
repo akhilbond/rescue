@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.content.Context;
 import android.util.JsonReader;
@@ -14,13 +14,13 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+/*
 import edu.stevens.cs522.chat.entities.ChatMessage;
 import edu.stevens.cs522.chat.entities.Peer;
 import edu.stevens.cs522.chat.managers.RequestManager;
 import edu.stevens.cs522.chat.managers.TypedCursor;
 import edu.stevens.cs522.chat.util.StringUtils;
-
+*/
 /**
  * Created by dduggan.
  */

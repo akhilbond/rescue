@@ -1,4 +1,4 @@
-package edu.stevens.cs522.chat.rest;
+package edu.stevens.mattmccreesh.heatrescue.rest;
 
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -13,14 +13,14 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
+/*
 import edu.stevens.cs522.chat.util.DateUtils;
 import edu.stevens.cs522.chat.util.EnumUtils;
 
 import static edu.stevens.cs522.chat.rest.Response.REQUEST_ID_HEADER;
 import static edu.stevens.cs522.chat.rest.Response.ResponseType.POSTMESSAGE;
 import static edu.stevens.cs522.chat.rest.Response.ResponseType.SYNCHRONIZE;
-import static edu.stevens.cs522.chat.rest.Response.createResponse;
+import static edu.stevens.cs522.chat.rest.Response.createResponse;*/
 
 /**
  * Created by dduggan.
