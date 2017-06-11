@@ -5,8 +5,8 @@
     <type>STOP</type>
     <name>Help Needed!</name>
     <position>
-      <lat>40.722341</lat>
-      <lon> -74.005275</lon>
+      <lat>40.727675</lat>
+      <lon> -74.006953</lon>
     </position>
     <description></description>
   </poiData>
@@ -25,8 +25,8 @@
     <type>STOP</type>
     <name>Help Needed!</name>
     <position>
-      <lat>40.722028</lat>
-      <lon>-74.002121</lon>
+      <lat>40.720411</lat>
+      <lon>-73.998571</lon>
     </position>
     <description>20, 22, 23, N21</description>
   </poiData>
@@ -35,8 +35,8 @@
     <type>STOP</type>
     <name>Help Needed!</name>
     <position>
-      <lat>40.724036</lat>
-      <lon>-74.004492</lon>
+      <lat>40.727145</lat>
+      <lon> -73.998010</lon>
     </position>
     <description>23, N21</description>
   </poiData>
