@@ -1,0 +1,4 @@
+#Sun Jun 11 09:13:30 EDT 2017
+base.0=C\:\\Users\\akhil\\Downloads\\FLIROneSDK-Android_1_2_8\\FLIROneSDKBundle\\AOR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_d3ae105d59b843ec8c2915e7f2f453b1183312fb
+renamed.0=classes.dex
+file.0=C\:\\Users\\akhil\\Downloads\\FLIROneSDK-Android_1_2_8\\FLIROneSDKBundle\\AOR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_d3ae105d59b843ec8c2915e7f2f453b1183312fb\\classes.dex
